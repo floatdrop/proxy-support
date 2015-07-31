@@ -1,6 +1,6 @@
 {
   "name": "proxy-support",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Replace globalAgent with tunnel-agent",
   "license": "MIT",
   "repository": "floatdrop/proxy-support",
