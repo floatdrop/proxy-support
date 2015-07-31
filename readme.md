@@ -2,6 +2,7 @@
 
 > Replace globalAgent with tunnel-agent
 
+:warning: __This module will replace `agent` option in every http and https request__
 
 ## Install
 
