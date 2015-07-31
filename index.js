@@ -1,4 +1,6 @@
 var caw = require('caw');
+var http = require('http');
+var https = require('https');
 
-require('http').globalAgent = caw({protocol: 'http'});
-require('https').globalAgent = caw({protocol: 'https'});
+http.globalAgent = caw({protocol: 'http'}) || http.globalAgent;
+https.globalAgent = caw({protocol: 'https'}) || https.globalAgent;

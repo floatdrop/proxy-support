@@ -23,7 +23,7 @@
     "proxy"
   ],
   "dependencies": {
-    "caw": "^1.0.0"
+    "caw": "https://github.com/kevva/caw/tarball/master"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
