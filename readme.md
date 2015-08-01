@@ -1,6 +1,6 @@
 # proxy-support [![Build Status](https://travis-ci.org/floatdrop/proxy-support.svg?branch=master)](https://travis-ci.org/floatdrop/proxy-support)
 
-> Replace globalAgent with tunnel-agent
+> Patch http and https request method to use tunnel-agent
 
 :warning: __This module will replace `agent` option in every http and https request__
 
