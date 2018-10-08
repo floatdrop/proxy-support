@@ -1,6 +1,6 @@
 {
   "name": "proxy-support",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Replace globalAgent with tunnel-agent",
   "license": "MIT",
   "repository": "floatdrop/proxy-support",
@@ -23,7 +23,7 @@
     "proxy"
   ],
   "dependencies": {
-    "caw": "^1.0.0"
+    "caw": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
